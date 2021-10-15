@@ -1,4 +1,4 @@
-public class MaxHeap {
+/*public class MaxHeap {
 
     private int[] Heap;
     private int size;
@@ -22,11 +22,11 @@ public class MaxHeap {
 
     // Método para saber si un nodo es hoja o no, true or false
     private boolean isLeaf(int pos) {
-            if (pos > (size / 2) && pos <= size) {
-                return true;
-            }
-            return false;
+        if (pos > (size / 2) && pos <= size) {
+            return true;
         }
+        return false;
+    }
 
     // Método para el intercambio de nodos
     private void swap(int fpos, int spos) {
@@ -101,4 +101,4 @@ public class MaxHeap {
         System.out.println("The max val is "
                 + maxHeap.extractMax());
         }
-    }
+    }*/
